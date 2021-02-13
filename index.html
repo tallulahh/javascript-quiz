@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Javascript Quiz</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="title">Javascript Quiz</div>
+<div class="quiz">
+  <div class="question"></div>
+  <p class="option" id="option1"></p>
+  <p class="option" id="option2"></p>
+  <p class="option" id="option3"></p>
+  <p class="option" id="option4"></p>
+  <div class="progress">This is x of y questions.</div>
+</div>
+<div class="startBtn" onclick="startGame();"><p id="startText">Start Quiz</p></div>
+<div class="gameOver">
+  <h1>Game Over</h1>
+  <p id="score">You got x out of y answers right</p>
+</div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
